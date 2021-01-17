@@ -1,0 +1,37 @@
+.video_container {
+  background-color: red;
+  /*height: 506.25vw*/
+}
+
+iframe {
+  width: 100vw;
+  height: 56.25vw;
+}
+
+.download_container {
+  height: 80px;
+  width: 200px;
+  background-color: yellow;
+}
+
+.download_icon {
+  height: 60px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+footer > p  {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media ( min-width: 564px ) {
+  iframe {
+    width: 80vw;
+    height: 45vw;
+  }
+}
