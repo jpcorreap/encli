@@ -1,6 +1,6 @@
-.video_container {
-  background-color: red;
-  /*height: 506.25vw*/
+h1 {
+  margin-top: 45px;
+  margin-bottom: 20px;
 }
 
 iframe {
@@ -11,11 +11,10 @@ iframe {
 .download_container {
   height: 80px;
   width: 200px;
-  background-color: yellow;
 }
 
 .download_icon {
-  height: 60px;
+  height: 30px;
 }
 
 footer {
@@ -27,6 +26,15 @@ footer {
 footer > p  {
   margin: 0px;
   padding: 0px;
+}
+
+.buttons_containers {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.link_for_button {
+  text-decoration: none;
 }
 
 @media ( min-width: 564px ) {
